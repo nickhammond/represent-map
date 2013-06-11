@@ -7,7 +7,7 @@ include_once "header.php";
 $owner_name = mysql_real_escape_string(parseInput($_POST['owner_name']));
 $owner_email = mysql_real_escape_string(parseInput($_POST['owner_email']));
 $title = mysql_real_escape_string(parseInput($_POST['title']));
-$type = mysql_real_escape_string(parseInput($_POST['type']);
+$type = mysql_real_escape_string(parseInput($_POST['type']));
 $address = mysql_real_escape_string(parseInput($_POST['address']));
 $uri = mysql_real_escape_string(parseInput($_POST['uri']));
 $description = mysql_real_escape_string(parseInput($_POST['description']));
